@@ -1,0 +1,323 @@
+@import url('Discord_Common.css');
+
+
+/* body {
+  background-color: #5865f2;;
+} */
+
+/* header style */
+.wrap {
+  position: relative;
+}
+
+header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  margin: 0 auto;
+  padding: 20px 0;
+  color: #fff;
+  font-weight: 700;
+  /* 헤더 아래 라인 없는 페이지는 아랫줄 삭제 하세요 */
+  /* border-bottom: 1px solid #ccc; */
+  z-index: 9999;
+}
+header .inner-header {
+  width: 84%;
+  max-width: 990px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .inner-header .logo img {
+  width: 150px;
+}
+header .inner-header h1 {
+  flex: 1;
+}
+header .inner-header .gnb {
+  flex: 8;
+}
+header .inner-header .login {
+  text-align: right;
+  flex: 1;
+  
+}
+header .inner-header .login .login-txt {
+  width: 40px;
+  padding: 10px 20px;
+  color: #111;
+  background: #fff;
+  border-radius: 20px;
+}
+header .inner-header .login:hover .login-txt {
+  color: #5865f2;
+  box-shadow: 1px 1px 5px #123;
+}
+header .inner-header .gnb ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .inner-header .gnb ul li {
+  padding: 20px;
+}
+header .inner-header .gnb ul li a:hover {
+  text-decoration: underline;
+}
+
+/* safety style */
+/* safety introduce style */
+.safety-center {
+  background: #5865f2;  
+}
+.safety-center .safety-introduce {
+  color: #fff;
+  height: 50vh;
+  padding-top: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 84%;
+  max-width: 1210px;
+  margin: 0 auto;
+}
+.safety-center .safety-introduce .intro-text {
+  width: 45%;
+}
+.safety-center .safety-introduce .intro-text h2 {
+  font-size: 43px;
+  font-weight: 700;
+  margin-top: 40px;
+  font-family: "Seymour One", sans-serif;
+}
+.safety-center .safety-introduce .intro-text p {
+  margin-top: 30px;
+  line-height: 1.5;
+}
+.safety-center .safety-introduce img {
+  width: 45%;
+}
+.safety-center .act-container {
+  /* border: 3px solid yellow; */
+  width: 70%;
+  max-width: 990px;
+  margin: 0 auto;
+  margin-top: 70px;
+  padding: 20px 0 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  font-family: "Seymour One", sans-serif;
+}
+.safety-center .act-container .box {
+  /* border: 3px solid red; */
+  background: #fff;
+  border-radius: 10px;
+  font-weight: 700;
+  flex-grow: 1;
+  padding: 10px;
+  width: 300px;
+  height: 100px;
+  margin: 10px;
+  box-shadow: 5px 5px #57F287;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.safety-center .act-container .box:hover {
+  background: #57F287;
+  box-shadow: 5px 5px #000;
+}
+
+/* safety-video style */
+.safety-video {
+  /* background: orange; */
+  margin: 0 auto;
+  padding: 95px 0;
+  text-align: center;
+  position: relative;
+}
+.safety-video .video-title {
+  margin: 20px auto;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  font-family: "Tilt Warp", sans-serif;
+}
+.safety-video .youtube-video {
+  width: 780px;
+  height: 410px;
+  border-radius: 10px;
+}
+.safety-video img {
+  display: inline-block;
+}
+.safety-video .star-top {
+  width: 117px;
+  height: 81px;
+
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.safety-video .star-bottom {
+
+  position: absolute;
+  bottom: 150px;
+  right: 100px;
+
+}
+
+/* safety-activity style */
+.safety-activity {
+  /* background: yellow; */
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+.safety-activity .activity-container {
+  width: 68%;
+  max-width: 990px;
+  margin: 0 auto;
+}
+.safety-activity .activity-container a .activity-rayout {
+  height: 290px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.safety-activity .activity-container a:nth-child(2n) .activity-rayout {
+  flex-direction: row-reverse;
+}
+.safety-activity .activity-container a .activity-rayout .text-box {
+ width: 450px; 
+}
+
+.safety-activity .activity-container a .activity-rayout .text-box .subtitle {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  padding-bottom: 20px;
+  font-family: "Tilt Warp", sans-serif;
+}
+.safety-activity .activity-container a .activity-rayout .text-box .act-text {
+  color: #50555f;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.safety-activity .activity-container a .activity-rayout .text-box .explore-me {
+  font-weight: 600;
+  background: url('https://assets-global.website-files.com/6257adef93867e50d84d30e2/63f347bfaaac791b046b61c1_ArrowButton.svg') no-repeat;
+  display: inline;
+  margin-right: auto;
+  padding-right: 32px;
+  background-position: 97%;
+  transition : 0.5s
+}
+.safety-activity .activity-container a .activity-rayout .text-box .explore-me:hover {
+  background-position: 99%;
+}
+
+
+
+.safety-activity .activity-container a .activity-rayout img {
+  width: 450px;
+  border-radius: 10px;
+  /* height: 290px; */
+}
+
+
+
+
+
+
+
+
+
+
+/* footer style */
+footer {
+  background: #23272A;
+  color: #fff;
+}
+
+footer .fnb {
+  width: 84%;
+  max-width: 1210px;
+  margin: 0 auto;
+  padding: 50px 0 30px 0;
+  border-bottom: 1px solid #5865f2;
+
+  display: flex; 
+}
+footer .fnb .lan-sns {
+  flex: 2;
+  margin-top: 50px;
+}
+footer .fnb ul {
+  flex: 1;
+  line-height: 2;
+}
+
+
+footer .fnb .lan-sns .lan a {
+  display: flex;  
+}
+footer .fnb .lan-sns .lan a img {
+  height: 20px;
+}
+footer .fnb .lan-sns .lan a span {
+  margin: 0 10px;
+}
+footer .fnb .lan-sns .sns {
+  font-size: 25px;
+  margin-top: 70px;
+}
+footer .fnb .lan-sns .sns a {
+  margin-right: 20px;
+}
+
+footer .fnb ul {
+  margin-left: 20px;
+}
+footer .fnb ul li:first-child {
+  color: #5865f2;
+  margin: 30px auto;
+}
+
+footer .fnb ul li a:hover {
+  text-decoration: underline;
+}
+
+
+footer .inner-footer {
+  width: 84%;
+  max-width: 1210px;
+  margin: 0 auto;
+  padding: 30px 0 70px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .inner-footer .footer-logo {
+  width: 150px;
+}
+footer .inner-footer .signup .signup-txt {
+  background: #5865f2;
+  color: #fff;
+  font-weight: 700;
+  width: 40px;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+footer .inner-footer .signup:hover .signup-txt {
+  background: #8891f2;
+}

@@ -1,0 +1,548 @@
+@import url('Discord_Common.css');
+
+/* header */
+header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  margin: 0 auto;
+  padding: 20px 0;
+  color: #fff;
+  font-weight: 700;
+  /* 헤더 아래 라인 없는 페이지는 아랫줄 삭제 하세요 */
+  /* border-bottom: 1px solid #ccc; */
+  z-index: 9999;
+}
+header .inner-header {
+  width: 84%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .inner-header .logo img {
+  width: 150px;
+}
+header .inner-header h1 {
+  flex: 1;
+}
+header .inner-header .gnb {
+  flex: 8;
+}
+header .inner-header .login {
+  text-align: right;
+  flex: 1;
+}
+header .inner-header .login .login-txt {
+  width: 40px;
+  padding: 10px 20px;
+  color: #111;
+  background: #fff;
+  border-radius: 20px;
+}
+header .inner-header .gnb ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .inner-header .gnb ul li {
+  padding: 20px;
+}
+/* header style end */
+
+
+/* section Nitro */
+section.first_wrap .screen{
+  height: 740px;
+  background-image: linear-gradient(to bottom,#808aff, #ec91f5 86%, #ec91f5);
+}
+
+section.first_wrap .screen .contents{
+  /* border: 4px solid red; */
+  width: 80%;
+  padding-top: 50px;
+  margin: 0 auto;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+
+section.first_wrap .screen .contents .contents_box{
+  margin-right: 60px;
+  margin-left: 150px;
+}
+
+section.first_wrap .screen .contents .contents_box h2{
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 24px;
+  font-family: "Seymour One", sans-serif;
+}
+
+section.first_wrap .screen .contents .contents_box h2 span{
+  display: block;
+}
+
+section.first_wrap .screen .contents .contents_box p{
+  color: #fff;
+  line-height: 1.5;
+}
+
+section.first_wrap .screen .contents .contents_box p span{
+  display: block;
+}
+
+section.first_wrap .container{
+  /* border: 4px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  height: 400px;
+  margin: -130px auto;
+  margin-bottom: 100px;
+  justify-content: center;
+}
+
+section.first_wrap .container .bluebox{
+  background-image: linear-gradient(to left bottom,#007cc2 20%, #5865f2);
+  width: 49%;
+  border-radius: 8px;
+  padding: 24px;
+  color: #fff;
+  margin-right: 2%;
+  position: relative;
+}
+
+section.first_wrap .container .bluebox h2{
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-family: "Seymour One", sans-serif;
+}
+
+section.first_wrap .container .bluebox div{
+  margin-bottom: 15px;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+section.first_wrap .container .bluebox button{
+  color: #000;
+  border-radius: 40px;
+  font-weight: 700;
+  padding: 14px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 20px;
+  text-align: center;
+  width: 90%;
+  position: absolute;
+  bottom: 15px;
+}
+
+section.first_wrap .container .bluebox i{
+  margin-right: 10px;
+}
+
+section.first_wrap .container .purplebox{
+  background-image: linear-gradient(to right bottom,#8547c6 25%,#b845c1 62%, #ab5d8a 95%);
+  width: 49%;
+  border-radius: 8px;
+  padding: 24px;
+  color: #fff;
+  position: relative;
+}
+
+section.first_wrap .container .purplebox h2{
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-family: "Seymour One", sans-serif;
+}
+
+section.first_wrap .container .purplebox div{
+  margin-bottom: 15px;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+section.first_wrap .container .purplebox button{
+  color: #000;
+  border-radius: 40px;
+  font-weight: 700;
+  padding: 14px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 20px;
+  text-align: center;
+  width: 90%;
+  position: absolute;
+  bottom: 15px;
+}
+
+section.first_wrap .container .purplebox i{
+  margin-right: 10px;
+}
+/* Nitro style end */
+
+
+/* perks style */
+section.second_wrap{
+  position: relative;
+  margin-bottom: 300px;
+}
+
+section.second_wrap .second_title{
+  /* border: 4px solid #000; */
+  font-weight: 700;
+  margin-top: 80px;
+  font-size: 3em;
+  text-align: center;
+  font-family: "Seymour One", sans-serif;
+}
+
+section.second_wrap .contents_boxes{
+  /* border: 4px solid red; */
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section.second_wrap .contents_boxes .box{
+  /* border: 1px solid blue; */
+  background: #f6f6f6;
+  width: 49%;
+  border-radius: 8px;
+  padding: 40px;
+  margin-bottom: 2%;
+}
+
+section.second_wrap .contents_boxes .box:first-child{
+  margin-right: 2%;
+}
+
+section.second_wrap .contents_boxes .box:nth-child(3){
+  margin-right: 2%;
+}
+
+section.second_wrap .contents_boxes .box div{
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+section.second_wrap .contents_boxes .box div span{
+  display: block;
+}
+
+section.second_wrap .contents_boxes .box div img{
+  text-align: center;
+  margin-top: 50px;
+}
+
+section.second_wrap button{
+  background: #23272A;
+  color: #fff;
+  border-radius: 28px;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 12px 32px 15px;
+  position: absolute;
+  right: 45%;
+  margin-bottom: 200px;
+}
+/* perks style end */
+
+
+/* plan style */
+section.third_wrap{
+  /* border: 4px solid violet; */
+  margin-bottom: 350px;
+}
+
+section.third_wrap .third_title{
+  font-weight: 700;
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 80px;
+  font-family: "Seymour One", sans-serif;
+}
+
+section.third_wrap .third_title span{
+  display: block;
+}
+
+section.third_wrap .graph{
+  /* border: 4px solid red; */
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+
+section.third_wrap .graph .graph_box{
+  border-bottom: 1px solid #99aab5;
+  display: flex;
+  flex-wrap: wrap;
+  height: 68px;
+}
+
+section.third_wrap .graph .graph_box h3{
+  font-weight: 700;
+  font-size: 20px;
+  width: 50%;
+}
+
+section.third_wrap .graph .graph_box p{
+  color: #2e3338;
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+section.third_wrap .graph .graph_box div{
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.third_wrap .graph .graph_box .MB{
+  font-weight: 700;
+}
+
+section.third_wrap .graph .graph_box .fps{
+  font-size: 15px;
+  font-weight: 700;
+}
+
+section.third_wrap .graph .bd_purple{
+  border: 1.5px solid #b845c1;
+  border-radius: 16px;
+  position: absolute;
+  width: 25%;
+  height: 1430px;
+  top: -35px;
+  right: 3px;
+  
+}
+
+section.third_wrap .graph .bd_purple img{
+  margin-top: -13px;
+  margin-left: 35px;
+}
+
+section.third_wrap .grap_button{
+  margin-top: 30px;
+  clear:both
+}
+
+section.third_wrap .grap_button .button1{
+  color: #fff;
+  background-color: #5865f2;
+  text-align: center;
+  border-radius: 40px;
+  padding: 7px 16px;
+  font-size: 14px;
+  font-weight: 700;
+  margin-right: 20px;
+  float: right;
+}
+
+section.third_wrap .grap_button .button2{
+  color: #fff;
+  background-color: #5865f2;
+  text-align: center;
+  border-radius: 40px;
+  padding: 7px 16px;
+  font-size: 14px;
+  font-weight: 700;
+  margin-right: 50px;
+  float: right;
+}
+/* plan style end */
+
+
+/* Questions style */
+section.fourth_wrap{
+  /* border: 4px solid #000;; */
+  position: relative;
+}
+
+section.fourth_wrap h2{
+  /* border: 1px solid red; */
+  font-weight: 700;
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 60px;
+  font-family: "Seymour One", sans-serif;
+}
+
+section.fourth_wrap .nav{
+  /* border: 1px solid yellowgreen; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  margin-bottom: 70px;
+}
+
+section.fourth_wrap .nav div{
+  color: #72767d;
+  font-size: 16px;
+  margin-right: 16px;
+}
+
+section.fourth_wrap .nav div:nth-child(3){
+  border-bottom: 1.5px solid #5865f2;
+  color: #5865f2;
+  padding-bottom: 16px;
+}
+
+section.fourth_wrap .questions_boxes{
+  width: 80%;
+  margin: 0 auto;
+}
+
+section.fourth_wrap .questions_boxes .questions_box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 80px;
+}
+
+section.fourth_wrap .fourth_img1{
+  position: absolute;
+  right: 0;
+  top: -100px;
+}
+
+section.fourth_wrap .fourth_img2{
+  position: absolute;
+  bottom: 120px;
+  left: 30px;
+}
+/* Questions style end*/
+
+
+/* Last style */
+section.last_wrap{
+  background-image: linear-gradient(135deg,#8547c6 10%,#b845c1 50%,#ab5d8a);
+  height: 406px;
+  position: relative;
+}
+
+section.last_wrap .last_title{
+  /* border: 1px solid #000; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top:35%;
+  left: 30%;
+}
+
+section.last_wrap .last_title h2{
+  margin-bottom: 32px;
+  font-size: 42px;
+  font-weight: 700;
+  color: #fff;
+}
+
+section.last_wrap .last_title button{
+  color: #000;
+  border-radius: 28px;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 50px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+section.last_wrap .last_img1{
+  position: absolute;
+  top: auto;
+  left: auto;
+}
+
+section.last_wrap .last_img2{
+  position: absolute;
+  right: 0;
+  top: auto;
+}
+/* end */
+
+
+/* footer */
+footer {
+  background: #23272A;
+  color: #fff;
+}
+
+footer .fnb {
+  width: 84%;
+  margin: 0 auto;
+  padding: 50px 0 30px 0;
+  border-bottom: 1px solid #5865f2;
+
+  display: flex; 
+}
+footer .fnb .lan-sns {
+  flex: 2;
+  margin-top: 50px;
+}
+footer .fnb ul {
+  flex: 1;
+  line-height: 2;
+}
+
+
+footer .fnb .lan-sns .lan a {
+  display: flex;  
+}
+footer .fnb .lan-sns .lan a img {
+  height: 20px;
+}
+footer .fnb .lan-sns .lan a span {
+  margin: 0 10px;
+}
+footer .fnb .lan-sns .sns {
+  font-size: 25px;
+  margin-top: 70px;
+}
+footer .fnb .lan-sns .sns a {
+  margin-right: 20px;
+}
+
+
+footer .fnb ul li:first-child {
+  color: #5865f2;
+  margin: 30px auto;
+}
+
+
+footer .inner-footer {
+  width: 84%;
+  margin: 0 auto;
+  padding: 30px 0 70px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .inner-footer .footer-logo {
+  width: 150px;
+}
+footer .inner-footer .signup .signup-txt {
+  background: #5865f2;
+  color: #fff;
+  font-weight: 700;
+  width: 40px;
+  padding: 10px 20px;
+  border-radius: 20px;
+}

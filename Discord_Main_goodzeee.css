@@ -1,0 +1,464 @@
+@import url('Discord_Common.css');
+
+
+.wrap {
+  position: relative;
+}
+
+header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  margin: 0 auto;
+  padding: 20px 0;
+  color: #fff;
+  font-weight: 700;
+  /* 헤더 아래 라인 없는 페이지는 아랫줄 삭제 하세요 */
+  /* border-bottom: 1px solid #ccc; */
+  z-index: 9999;
+}
+header .inner-header {
+  width: 84%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .inner-header .logo img {
+  width: 150px;
+}
+header .inner-header h1 {
+  flex: 1;
+}
+header .inner-header .gnb {
+  flex: 8;
+}
+header .inner-header .login {
+  text-align: right;
+  flex: 1;
+}
+header .inner-header .login .login-txt {
+  width: 40px;
+  padding: 10px 20px;
+  color: #111;
+  background: #fff;
+  border-radius: 20px;
+}
+header .inner-header .login:hover .login-txt {
+  color: #5865f2;
+  box-shadow: 1px 1px 5px #123;
+}
+header .inner-header .gnb ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .inner-header .gnb ul li {
+  padding: 20px;
+}
+header .inner-header .gnb ul li a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* footer style */
+footer {
+  background: #23272A;
+  color: #fff;
+}
+
+footer .fnb {
+  width: 84%;
+  margin: 0 auto;
+  padding: 50px 0 30px 0;
+  border-bottom: 1px solid #5865f2;
+
+  display: flex; 
+}
+footer .fnb .lan-sns {
+  flex: 2;
+  margin-top: 50px;
+}
+footer .fnb ul {
+  flex: 1;
+  line-height: 2;
+}
+
+
+footer .fnb .lan-sns .lan a {
+  display: flex;  
+}
+footer .fnb .lan-sns .lan a img {
+  height: 20px;
+}
+footer .fnb .lan-sns .lan a span {
+  margin: 0 10px;
+}
+footer .fnb .lan-sns .sns {
+  font-size: 25px;
+  margin-top: 70px;
+}
+footer .fnb .lan-sns .sns a {
+  margin-right: 20px;
+}
+
+
+footer .fnb ul li:first-child {
+  color: #5865f2;
+  margin: 30px auto;
+}
+
+footer .fnb ul li a:hover {
+  text-decoration: underline;
+}
+
+
+footer .inner-footer {
+  width: 84%;
+  margin: 0 auto;
+  padding: 30px 0 70px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .inner-footer .footer-logo {
+  width: 150px;
+}
+footer .inner-footer .signup .signup-txt {
+  background: #5865f2;
+  color: #fff;
+  font-weight: 700;
+  width: 40px;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+footer .inner-footer .signup:hover .signup-txt {
+  background: #8891f2;
+}
+
+
+/* header 이미지 넣기 */
+header img {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+}
+
+/* main-top style */
+div.wrap {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* 뒤에 이미지 배치하고 삽입하기 */
+section.main-top {
+  position: relative;
+}
+section.main-top .image-wrap {
+  height: 550px;
+  /* border: 10px solid #000; */
+  background-color: #404eed;
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-end;
+  overflow: hidden;
+  position: relative;
+  /* width: 100%; */
+}
+section.main-top .image-wrap .left-image {
+  position: absolute;
+  top: 46%;
+  left: -7.5%;
+  z-index: 99;
+}
+section.main-top .image-wrap .left-image img {
+  height: 300px;
+  width: 700px;
+  /* width: 100%; */
+}
+section.main-top .image-wrap .right-image {
+  width: 100%;
+  position: absolute;
+  top: 36.5%;
+  left: 66%;
+}
+section.main-top .image-wrap .right-image img {
+  height: 350px;
+  width: 700px;
+  /* width: 100%; */
+}
+section.main-top .image-wrap .center-image {
+  width: 100%;
+  position: relative;
+  left: -39%;
+  top: -13%;
+}
+
+/* 메인 타이틀 내부 */
+section.main-top .main-title {
+  /* 중앙 배치 시키기 */
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+  color: white;
+  z-index: 999;
+  /* width: 1440px; */
+}
+section.main-top .main-title h1 {
+  width: 900px;
+  font-size: 45px;
+  /* font-family: "Abcgintonord 800", sans-serif; */
+  margin-bottom: 30px;
+  font-family: "Seymour One", sans-serif;
+  position: relative;
+  left: 3%;
+}
+section.main-top .main-title p {
+  width: 1000px;
+  line-height: 1.7;
+  font-size: 17px;
+}
+section.main-top .main-title span {
+  background: white;
+  color: black;
+  border-radius: 40px;
+  margin-right: 20px;
+  position: relative;
+  top: 47px;
+  font-weight: 700;
+}
+section.main-top .main-title span.down:hover {
+  box-shadow: 2px 2px 10px rgb(34, 34, 34);
+  color: #5865f2;
+}
+section.main-top .main-title span.open:hover {
+  box-shadow: 2px 2px 2px rgb(34, 34, 34);
+  opacity: 0.9;
+}
+section.main-top .main-title span.open {
+  background: #000;
+  color: white;
+  padding: 15px 30px;
+}
+section.main-top .main-title span.down {
+  padding: 15px 30px;
+  padding-left: 50px;
+}
+section.main-top .main-title a.download {
+  /* border: 5px solid #000; */
+  position: relative;
+  /* display: flex; */
+}
+section.main-top .main-title a i { 
+/* border: 3px solid #000; */
+color: #000;
+position: absolute;
+top: 50px;
+left: 6%;
+z-index: 5;
+padding-left: 10px;
+/* transform: translate(-50%, 0%); */
+}
+
+
+/* invite style */
+.invite {
+  background: white;
+}
+.invite .invite-wrap {
+  /* border: 4px solid #000; */
+  display: flex;
+  justify-content: space-evenly;
+  margin: 70px;
+  padding: 50px;
+}
+.invite .invite-wrap .invite-img img {
+  /* border: 3px solid red; */
+  width: 100%;
+  height: 350px;
+  /* margin-right: 50px; */
+}
+.invite .invite-wrap .invite-text-wrap {
+  position: relative;
+  /* border: 3px solid yellowgreen; */
+}
+.invite .invite-wrap .invite-text-wrap .textwrap {
+  position: relative;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.invite .invite-wrap .invite-text-wrap h2 {
+  width: 500px;
+  height: 200px;
+  padding: 70px 45px;
+}
+.invite .invite-wrap .invite-text-wrap h2 strong {
+  font-size: 47px;
+  font-weight: 700;
+}
+.invite .invite-wrap .invite-text-wrap p {
+  width: 430px;
+  height: 200px;
+  padding: 25px 45px 0px;
+  line-height: 1.4;
+  text-align: left;
+}
+
+/* where style */
+.where {
+  background-color: #f6f6f6;
+}
+.where .where-wrap {
+  /* border: 5px solid #000; */
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px;
+  padding: 80px;
+}
+.where .where-wrap .where-img img {
+  /* border: 3px solid red; */
+  width: 100%;
+  height: 350px;
+  /* margin-left: 50px; */
+}
+.where .where-wrap .where-text-wrap {
+/* border: 3px solid red; */
+position: relative;
+}
+.where .where-wrap .where-text-wrap .wheretextwrap {
+/* border: 3px solid green; */
+position: relative;
+top: 5%;
+left: 47%;
+transform: translate(-50%, 0%);
+}
+.where .where-wrap .where-text-wrap h2 {
+width: 450px;
+height: 200px;
+padding: 80px 45px;
+}
+.where .where-wrap .where-text-wrap h2 strong {
+font-size: 47px;
+font-weight: 700;
+}
+.where .where-wrap .where-text-wrap p {
+width: 430px;
+height: 100px;
+padding: 0 45px;
+line-height: 1.4;
+text-align: justify;
+}
+
+/* fandom style */
+.fandom {
+  background: white;
+}
+.fandom .fandom-wrap {
+  /* border: 4px solid #000; */
+  display: flex;
+  justify-content: space-evenly;
+  margin: 70px;
+  padding: 50px;
+}
+.fandom-wrap .fandom-img img {
+  /* border: 3px solid red; */
+  width: 100%;
+  height: 350px;
+  /* margin-right: 50px; */
+}
+.fandom .fandom-wrap .fandom-text-wrap {
+  position: relative;
+  /* border: 3px solid yellowgreen; */
+}
+.fandom .fandom-wrap .fandom-text-wrap .fandomtextwrap {
+  position: relative;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.fandom .fandom-wrap .fandom-text-wrap h2 {
+  width: 500px;
+  height: 200px;
+  padding: 90px 45px;
+}
+.fandom .fandom-wrap .fandom-text-wrap h2 strong {
+  font-size: 47px;
+  font-weight: 700;
+}
+.fandom .fandom-wrap .fandom-text-wrap p {
+  width: 430px;
+  height: 200px;
+  padding: 25px 45px 0px;
+  line-height: 1.4;
+  text-align: left;
+}
+
+/* 마지막 하단 부분 style */
+.last-container {
+  width: 100%;
+  margin: 0 auto;
+  /* border: 5px solid #000; */
+  background: #f6f6f6;
+}
+
+.last-container .last-wrap {
+  text-align: center;
+  padding: 100px ;
+  margin: 0 auto;
+  /* width: 80%; */
+}
+.last-container .last-wrap .last-text {
+font-size: 30px;
+font-weight: 700;
+padding-bottom: 30px;
+margin: 0 auto;
+}
+.last-container .last-wrap p {
+font-size: 16px;
+width: 70%;
+margin: 0 auto;
+}
+.last-container .last-wrap img{
+width: 70%;
+}
+
+.last-container .last-wrap .start-wrap {
+padding: 10px 0;
+margin: 0 auto;
+}
+.last-container .last-wrap .start-wrap .txt {
+font-size: 20px;
+padding-bottom: 30px;
+font-family: "Seymour One", sans-serif;
+} 
+.last-container .last-wrap .start-wrap .txt2 {
+background: #5865f2;
+font-size: 16px;
+color: white;
+padding: 10px 40px;
+/* width: 15%; */
+border-radius: 40px;
+margin: 0 auto;
+}
+.last-container .last-wrap .start-wrap .txt2:hover {
+  box-shadow: 0px 5px 7px gray;
+  opacity: 0.8;
+}
+.last-container .last-wrap .start-wrap a {
+  /* border: 3px solid #000; */
+  position: relative;
+}
+.last-container .last-wrap .start-wrap a i { 
+  /* border: 3px solid #000; */
+  color: white;
+  position: absolute;
+  top: 4px;
+  left: 5%;
+  z-index: 5;
+  padding-left: 10px;
+  }
